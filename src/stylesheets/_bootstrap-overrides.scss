@@ -1,0 +1,16 @@
+.bg-primary {
+  background-color: $orangePerso !important;
+}
+
+.text-primary {
+  color: $orangePerso !important;
+}
+
+a {
+  color: $orangePerso;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($orangePerso, 15%);
+  }
+}
