@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './stylesheets/main.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import {fab} from "@fortawesome/free-brands-svg-icons";
+import { faUserCircle, faMailBulk, faTerminal, faInfo } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fab, faUserCircle, faMailBulk, faTerminal, faInfo)
 
 ReactDOM.render(
   <React.StrictMode>
