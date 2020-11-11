@@ -10,22 +10,22 @@ const outilConst = {
 export const listSkillsOutils= [
     {
         icone: gitIcone ,
-        name: "Circle (CI)",
+        name: "Git",
         ...outilConst
     },
     {
         icone: githubIcon ,
-        name: "Circle (CI)",
+        name: "GitHub",
         ...outilConst
     },
     {
         icone: gitlabIcon ,
-        name: "Heroku (CD)",
+        name: "GitLab",
         ...outilConst
     },
     {
         icone: dockerHubIcone ,
-        name: "Netlify (CD)",
+        name: "Dpcker Hub",
         ...outilConst
     },
     {
