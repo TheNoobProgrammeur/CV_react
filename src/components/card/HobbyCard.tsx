@@ -8,6 +8,8 @@ export const HoobyCard = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggel = () => setIsOpen(!isOpen);
 
+    const gif = "https://giphy.com/embed/3oGRFlpAW4sIHA02NW";
+
     return <div className="card">
         <div className="card-header">
            <h3> {globIcon} Pour parler plus de moi </h3>
@@ -35,7 +37,7 @@ export const HoobyCard = () => {
         </div>
 
         <Collapse isOpen={isOpen}>
-            <iframe src="https://giphy.com/embed/3oGRFlpAW4sIHA02NW"  width="480" height="480" frameBorder="0"
+            <iframe src={gif}  width="480" height="480" frameBorder="0"
                     className="giphy-embed" allowFullScreen/>
         </Collapse>
     </div>
