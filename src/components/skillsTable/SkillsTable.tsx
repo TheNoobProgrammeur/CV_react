@@ -18,11 +18,13 @@ export const SkillsTable = (props: {
         },
     }[],
     initOpen: boolean,
-    type: string
+    type: string,
+    projectCol: boolean
 }) => {
 
     const titreTab = props.titreTab
     const listeSkill = props.listeSkills
+    const projectCol = props.projectCol
 
     const typeTable =  props.type
     let classCard = 'card border-'+typeTable+' mb-3'
@@ -54,7 +56,7 @@ export const SkillsTable = (props: {
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Technologie</th>
-                    <th scope="col">Projet</th>
+                    {projectCol ? <th scope="col">Projet</th> : <></> }
                     <th scope="col">Domaine</th>
                 </tr>
                 </thead>
@@ -68,6 +70,7 @@ export const SkillsTable = (props: {
                         <td style={{fontSize: "x-large", textAlign: "center", verticalAlign: "middle"}} >
                             <h3>{value.name}</h3>
                         </td>
+                        { projectCol ?
                         <td>
                             { value.haveProject ? <>
                                     <h4>{value.projet.nom}</h4>
@@ -80,6 +83,7 @@ export const SkillsTable = (props: {
                             }
 
                         </td>
+                        : <></>}
                         <td style={{fontSize: "x-large", textAlign: "center", verticalAlign: "middle"}}>
                             {value.domaine}
                         </td>
