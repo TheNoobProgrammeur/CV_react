@@ -12,7 +12,7 @@ export const listSkillsPrincipal = [
             cadre: cadreProjet.univeristaire,
             description: [
                 "Petit jeu du type mario partie en debut de M1.",
-                "Python a était le principale langague de programmation durant mes étude."],
+                "Python a été le principale langage  de programmation durant mes études."],
             link: urlGitHub+'Chariot-Party',
             icone_depot: githubIcon
         }
@@ -42,7 +42,7 @@ export const listSkillsPrincipal = [
             cadre: cadreProjet.univeristaire,
             description: [
                 "Interface web pour le logiciel linux Auto Multiple Choice",
-                "Gestion de droit utilisateur, interface  de commande, automatisation des corections."],
+                "Gestion de droit utilisateur, interface  de commande, automatisation des corrections."],
             link: undefined,
             icone_depot: undefined
         }
@@ -82,7 +82,7 @@ export const listSkillsPrincipal = [
             nom: "Projet API Flask",
             cadre: cadreProjet.perso,
             description: ["Mise en place d'une API de gestion d'événement",
-                "Projet lab sur les tests, CI/CD et d'autre domaine"],
+                "Projet lab sur les tests, CI/CD et d'autres domaines"],
             link: urlGitHub+'api_flask',
             icone_depot: githubIcon
         }
