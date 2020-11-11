@@ -1,6 +1,13 @@
 import React from 'react';
 import {SkillsTable} from "./skillsTable/SkillsTable";
-import {listSkillsArchi, listSkillsPrincipal, listSkillsSecondaire} from "./skillsTable/listes/";
+import {
+    listSkillsArchi,
+    listSkillsDevops,
+    listSkillsInProgress,
+    listSkillsOutils,
+    listSkillsPrincipal,
+    listSkillsSecondaire
+} from "./skillsTable/listes/";
 export const Skills = () => {
 
     return <>
@@ -22,11 +29,27 @@ export const Skills = () => {
                 />
 
                 <SkillsTable
+                    titreTab={'Programming Languages/Frameworks In Progress'}
+                    listeSkills={listSkillsInProgress}
+                    initOpen={false} type={"danger"} projectCol={true}
+                />
+
+                <SkillsTable
                     titreTab={'Architecture API'}
                     listeSkills={listSkillsArchi}
                     initOpen={false} type={"secondary"} projectCol={false}
                 />
 
+                <SkillsTable
+                    titreTab={'Devops'}
+                    listeSkills={listSkillsDevops}
+                    initOpen={false} type={"warning"} projectCol={false}
+                />
+                <SkillsTable
+                    titreTab={'Outils de dev'}
+                    listeSkills={listSkillsOutils}
+                    initOpen={false} type={"success"} projectCol={false}
+                />
             </div>
         </section>
     </>

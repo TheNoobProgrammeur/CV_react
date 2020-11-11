@@ -1,7 +1,9 @@
 export const projectDomaine = {
     languages: "Langage",
     framwork: "Framework",
-    arch: "API Architecture"
+    arch: "API Architecture",
+    devops: "DEVOPS",
+    outil: "Outils de dev"
 };
 
 export const cadreProjet = {

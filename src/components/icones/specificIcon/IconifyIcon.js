@@ -5,6 +5,7 @@ import kotlinIcone from '@iconify-icons/cib/kotlin';
 import latxIcone from '@iconify-icons/cib/latex';
 import firebaseIcone from '@iconify-icons/cib/firebase';
 import netlifyIcone from '@iconify-icons/cib/netlify';
+import circleIcone from '@iconify-icons/cib/circleci';
 
 import {Icon} from "@iconify/react";
 import React from "react";
@@ -16,5 +17,6 @@ const kotlin= <i><Icon icon={kotlinIcone} /></i>
 const latex= <i><Icon icon={latxIcone} /></i>
 const firebase= <i><Icon icon={firebaseIcone} /></i>
 const netlify= <i><Icon icon={netlifyIcone} /></i>
+const circle = <i><Icon icon={circleIcone} /></i>
 
-export {flask,graphql,spring,kotlin,latex,firebase,netlify}
+export {flask,graphql,spring,kotlin,latex,firebase,netlify,circle}

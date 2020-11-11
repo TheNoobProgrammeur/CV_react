@@ -1,7 +1,7 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import React from "react";
 import {Devicon} from "./specificIcon/DevIcon"
-import {flask, graphql, kotlin, latex, netlify, spring} from "./specificIcon/IconifyIcon";
+import {flask, graphql, kotlin, latex, netlify, spring, circle} from "./specificIcon/IconifyIcon";
 
 
 export const linkedinIcon = <i><FontAwesomeIcon icon={["fab", "linkedin-in"]} /></i>
@@ -33,7 +33,7 @@ export const angleUpIcon = <i><FontAwesomeIcon icon={["fas", "angle-up"]}/></i>
 export const angleDownIcon = <i><FontAwesomeIcon icon={["fas", "angle-down"]}/></i>
 export const dataBaseIcon = <i><FontAwesomeIcon icon={["fas", "database"]}/></i>
 export const codeIcon = <i><FontAwesomeIcon icon={["fas", "code"]}/></i>
-export const umlIcon = <i><FontAwesomeIcon icon={["fas", "project-diagrame"]}/></i>
+export const umlIcon = <i><FontAwesomeIcon icon={["fas", "project-diagram"]}/></i>
 
 export const reactIcon = <Devicon name="react" logoStyle="original"/>
 export const dockerIcon = <Devicon name="docker" logoStyle="plain"/>
@@ -50,6 +50,7 @@ export const postgresqlIcon = <Devicon name="postgresql" logoStyle="plain"/>
 export const debianIcon = <Devicon name="postgresql" logoStyle="plain"/>
 export const herokuIcon = <Devicon name="heroku" logoStyle="original"/>
 export const vagrantIcon = <Devicon name="vagrant" logoStyle="plain"/>
+export const travisIcon = <Devicon name="travis" logoStyle="plain"/>
 
 export const flaskIcon = flask;
 export const graphqlIcon = graphql;
@@ -57,3 +58,4 @@ export const springIcon = spring;
 export const kotlinIcon = kotlin;
 export const latexIcon = latex;
 export const netlifyIcon = netlify;
+export const circleIcon = circle;

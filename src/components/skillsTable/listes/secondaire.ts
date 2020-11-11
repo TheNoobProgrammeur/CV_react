@@ -5,7 +5,7 @@ import {
     githubIcon,
     htmlIcone,
     jsIcone,
-    kotlinIcon, latexIcon, oracleIcon,
+    kotlinIcon, latexIcon, oracleIcon, reactIcon,
     rIcone,
     springIcon
 } from "../../icones";
@@ -70,6 +70,20 @@ export const listSkillsSecondaire = [
                 "Projet de group Angular",
                 "Application pour géré des collection de doc"],
             link: 'https://github.com/enneagone/alexandrie-front',
+            icone_depot: githubIcon
+        }
+    },
+    {
+        icone: reactIcon ,
+        name: 'React',
+        domaine: projectDomaine.framwork,
+        haveProject: true,
+        projet: {
+            nom: "Mon CV",
+            cadre: cadreProjet.univeristaire,
+            description: [
+                "Vous êtes entrain de le lire ^^"],
+            link: urlGitHub+"CV_react",
             icone_depot: githubIcon
         }
     },
