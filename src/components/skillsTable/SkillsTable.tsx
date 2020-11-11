@@ -22,13 +22,16 @@ export const SkillsTable = (props: {
     projectCol: boolean
 }) => {
 
-    const titreTab = props.titreTab
-    const listeSkill = props.listeSkills
-    const projectCol = props.projectCol
+    const titreTab = props.titreTab;
+    const listeSkill = props.listeSkills;
+    const projectCol = props.projectCol;
 
-    const typeTable =  props.type
-    let classCard = 'card border-'+typeTable+' mb-3'
-    let classCardHeader = "card-header bg-"+typeTable+" text-white"
+    const typeTable =  props.type;
+    let classCard = 'card border-'+typeTable+' mb-3';
+    let classCardHeader = "card-header bg-"+typeTable+" text-white";
+
+    const gift1 = "https://www.animatedimages.org/data/media/202/animated-dog-image-0931.gif";
+    const gift2 = "https://www.animatedimages.org/data/media/202/animated-dog-image-0932.gif";
 
 
     const [isOpen, setIsOpen] = useState(props.initOpen);
@@ -78,8 +81,8 @@ export const SkillsTable = (props: {
                                     description : {value.projet.description.map((value1) =><>{value1}<br /></>)}
                                     <a href={value.projet.link} rel="noreferrer" target="_blank">{value.projet.icone_depot}</a>
                                 </> : (index%2===0) ?
-                                    <img src="https://www.animatedimages.org/data/media/202/animated-dog-image-0931.gif"  alt="animated-dog-image-0931" /> :
-                                    <img src="https://www.animatedimages.org/data/media/202/animated-dog-image-0932.gif" alt="animated-dog-image-0932" />
+                                    <img src={gift1}  alt={"gif de chien"}/> :
+                                    <img src={gift2} alt={"gif de chien"}/>
                             }
 
                         </td>
