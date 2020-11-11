@@ -60,7 +60,7 @@ export const SkillsTable = (props: {
                 </thead>
                 <tbody>
                 {listeSkill.map(
-                    (value) => <tr>
+                    (value,index) => <tr>
                         <td className={"dev-icons"}
                             style={{textAlign: "center", verticalAlign: "middle"}}>
                             {value.icone}
@@ -74,7 +74,9 @@ export const SkillsTable = (props: {
                                     cadre du projet : {value.projet.cadre} <br />
                                     description : {value.projet.description.map((value1) =><>{value1}<br /></>)}
                                     <a href={value.projet.link} rel="noreferrer" target="_blank">{value.projet.icone_depot}</a>
-                                </> : <><a href="https://www.animatedimages.org/cat-dogs-202.htm"><img src="https://www.animatedimages.org/data/media/202/animated-dog-image-0931.gif"  alt="animated-dog-image-0931" /></a></>
+                                </> : (index%2===0) ?
+                                    <><a href="https://www.animatedimages.org/cat-dogs-202.htm"><img src="https://www.animatedimages.org/data/media/202/animated-dog-image-0931.gif"  alt="animated-dog-image-0931" /></a></> :
+                                    <><a href="https://www.animatedimages.org/cat-dogs-202.htm"><img src="https://www.animatedimages.org/data/media/202/animated-dog-image-0932.gif" alt="animated-dog-image-0932" /></a></>
                             }
 
                         </td>

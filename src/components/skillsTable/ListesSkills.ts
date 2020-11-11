@@ -7,7 +7,17 @@ import {
     springIcon,
     githubIcon,
     flaskIcon,
-    adroidIcone, kotlinIcon, jsIcone, angularIcone, bashIcon
+    adroidIcone,
+    kotlinIcon,
+    jsIcone,
+    angularIcone,
+    bashIcon,
+    rIcone,
+    htmlIcone,
+    cssIcone,
+    latexIcon,
+    dataBaseIcon,
+    oracleIcon
 } from "../icones";
 
 const domaine = {
@@ -192,6 +202,48 @@ export const listSkillsSecondaire = [
     {
         icone: bashIcon ,
         name: 'Bash',
+        domaine: domaine.languages,
+        haveProject: false,
+        projet: projetVide
+    },
+    {
+        icone: rIcone ,
+        name: 'R',
+        domaine: domaine.languages,
+        haveProject: false,
+        projet: projetVide
+    },
+    {
+        icone: htmlIcone ,
+        name: 'HTML',
+        domaine: domaine.languages,
+        haveProject: false,
+        projet: projetVide
+    },
+    {
+        icone: cssIcone ,
+        name: 'CSS',
+        domaine: domaine.languages,
+        haveProject: false,
+        projet: projetVide
+    },
+    {
+        icone: latexIcon ,
+        name: 'Latex',
+        domaine: domaine.languages,
+        haveProject: false,
+        projet: projetVide
+    },
+    {
+        icone: dataBaseIcon ,
+        name: 'SQl',
+        domaine: domaine.languages,
+        haveProject: false,
+        projet: projetVide
+    },
+    {
+        icone: oracleIcon ,
+        name: 'PL/SQl',
         domaine: domaine.languages,
         haveProject: false,
         projet: projetVide
