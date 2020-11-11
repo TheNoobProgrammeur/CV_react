@@ -9,6 +9,7 @@ export const HoobyCard = () => {
     const toggel = () => setIsOpen(!isOpen);
 
     const gif = "https://giphy.com/embed/3oGRFlpAW4sIHA02NW";
+    const gifTitre = "gif";
 
     return <div className="card">
         <div className="card-header">
@@ -37,8 +38,7 @@ export const HoobyCard = () => {
         </div>
 
         <Collapse isOpen={isOpen}>
-            <iframe src={gif}  width="480" height="480" frameBorder="0"
-                    className="giphy-embed" allowFullScreen/>
+            <iframe src={gif}  title={gifTitre} width="480" height="480" frameBorder="0"  allowFullScreen/>
         </Collapse>
     </div>
 }
