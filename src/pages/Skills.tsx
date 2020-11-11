@@ -1,5 +1,5 @@
 import React from 'react';
-import {SkillsTable} from "./skillsTable/SkillsTable";
+import {SkillsTable} from "../components/skillsTable/SkillsTable";
 import {
     listSkillsArchi,
     listSkillsDevops,
@@ -7,7 +7,7 @@ import {
     listSkillsOutils,
     listSkillsPrincipal,
     listSkillsSecondaire
-} from "./skillsTable/listes/";
+} from "../components/skillsTable/listes";
 export const Skills = () => {
 
     return <>

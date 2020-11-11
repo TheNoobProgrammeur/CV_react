@@ -21,6 +21,7 @@
     "devicon": "^2.2.0",
     "jquery": "~3.4.1",
     "leaflet": "^1.7.1",
+    "netlify-cli": "^2.68.4",
     "node-sass": "4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

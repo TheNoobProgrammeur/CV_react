@@ -8,7 +8,15 @@ export const listeLiens = [
         lien: '#experience'
     },
     {
+        name: 'Formation',
+        lien: '#formation'
+    },
+    {
         name: 'Skills',
         lien: '#skills'
+    },{
+        name: 'Hobby',
+        lien: '#hobby'
     },
+
 ]

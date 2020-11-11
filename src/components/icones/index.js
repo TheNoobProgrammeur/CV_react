@@ -24,6 +24,7 @@ export const centosIcone = <i><FontAwesomeIcon icon={["fab", "centos"]} /></i>
 export const winIcone = <i><FontAwesomeIcon icon={["fab", "windows"]} /></i>
 export const gitIcone = <i><FontAwesomeIcon icon={["fab", "git-square"]} /></i>
 export const dockerHubIcone = <i><FontAwesomeIcon icon={["fab", "dochub"]} /></i>
+export const quebecIcone = <i style={{color:"red"}}><FontAwesomeIcon icon={["fab", "canadian-maple-leaf"]} /></i>
 
 export const bashIcon = <i><FontAwesomeIcon icon={["fas", "terminal"]} /></i>
 export const userIcon = <i><FontAwesomeIcon icon={["fas", "user-circle"]} /></i>
@@ -34,6 +35,7 @@ export const angleDownIcon = <i><FontAwesomeIcon icon={["fas", "angle-down"]}/><
 export const dataBaseIcon = <i><FontAwesomeIcon icon={["fas", "database"]}/></i>
 export const codeIcon = <i><FontAwesomeIcon icon={["fas", "code"]}/></i>
 export const umlIcon = <i><FontAwesomeIcon icon={["fas", "project-diagram"]}/></i>
+export const globIcon = <i><FontAwesomeIcon icon={["fas", "globe"]}/></i>
 
 export const reactIcon = <Devicon name="react" logoStyle="original"/>
 export const dockerIcon = <Devicon name="docker" logoStyle="plain"/>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {ExperiancesCard} from "./card/ExperiencesCard";
+import {ExperiancesCard} from "../components/card/ExperiencesCard";
 import {
     reactIcon,
     pythonIcon,
@@ -16,7 +16,7 @@ import {
     htmlIcone,
     nodeIcon,
     wordPressIcone
-} from "./icones/";
+} from "../components/icones/index";
 
 
 export const Experiances = () => {

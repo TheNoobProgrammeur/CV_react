@@ -1,4 +1,4 @@
-import  {mailIcon,linkedinIcon,githubIcon,gitlabIcon,userIcon} from './icones/index'
+import  {mailIcon,linkedinIcon,githubIcon,gitlabIcon,userIcon} from '../components/icones/index'
 import React from 'react';
 
 

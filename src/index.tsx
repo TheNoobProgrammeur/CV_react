@@ -14,7 +14,8 @@ import {
     faAngleDown,
     faDatabase,
     faCode,
-    faProjectDiagram
+    faProjectDiagram,
+    faGlobe,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(fab,
@@ -26,7 +27,8 @@ library.add(fab,
     faAngleDown,
     faDatabase,
     faCode,
-    faProjectDiagram
+    faProjectDiagram,
+    faGlobe,
 )
 
 ReactDOM.render(
