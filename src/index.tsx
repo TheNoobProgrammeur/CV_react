@@ -5,9 +5,29 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {fab} from "@fortawesome/free-brands-svg-icons";
-import { faUserCircle, faMailBulk, faTerminal, faInfo } from '@fortawesome/free-solid-svg-icons';
+import {
+    faUserCircle,
+    faMailBulk,
+    faTerminal,
+    faInfo,
+    faAngleUp,
+    faAngleDown,
+    faDatabase,
+    faCode,
+    faProjectDiagram
+} from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, faUserCircle, faMailBulk, faTerminal, faInfo)
+library.add(fab,
+    faUserCircle,
+    faMailBulk,
+    faTerminal,
+    faInfo,
+    faAngleUp,
+    faAngleDown,
+    faDatabase,
+    faCode,
+    faProjectDiagram
+)
 
 ReactDOM.render(
   <React.StrictMode>

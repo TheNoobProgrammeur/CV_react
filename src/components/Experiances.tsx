@@ -12,8 +12,12 @@ import {
     javaIcon,
     graphqlIcon,
     trelloIcon,
+    cssIcone,
+    htmlIcone,
+    nodeIcon,
+    wordPressIcone
 } from "./icones/";
-import {cssIcone, htmlIcone, wordPressIcone} from "./icones";
+
 
 export const Experiances = () => {
 
@@ -27,7 +31,9 @@ export const Experiances = () => {
                         description={["Apprenti développeur Chez Atos."]}
                         date={"Septembre 2020 - Aujourd'hui"}
                         icons={[
-                            [{'name':'react','icon':reactIcon}]
+                            [
+                                {'name':'react','icon':reactIcon},
+                                {'name':'nodeJS','icon':nodeIcon}]
                         ]}
                     />
                 <br/>
@@ -88,9 +94,9 @@ export const Experiances = () => {
                         [
                             [
                                 {'name':'python','icon':pythonIcon},
-                                {'name':'java','icon':wordPressIcone},
-                                {'name':'graphQL','icon':htmlIcone},
-                                {'name':'trello','icon':cssIcone},
+                                {'name':'WordPress','icon':wordPressIcone},
+                                {'name':'HTML','icon':htmlIcone},
+                                {'name':'CSS','icon':cssIcone},
                             ]
                         ]
                     }/>
