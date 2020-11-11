@@ -16,14 +16,14 @@ export const Skills = () => {
                 <h2 className="mb-5">Skills</h2>
                 <SkillsTable
                     listeSkills={listSkillsPrincipal}
-                    titreTab={'Mes principaux Languages/Frameworks de programmation '}
+                    titreTab={'Mes principaux Languages/Frameworks de développement '}
                     initOpen={true}
                     type={'success'}
                     projectCol={true}
                 />
 
                 <SkillsTable
-                    titreTab={'Languages/Frameworks de programmation Secondaire'}
+                    titreTab={'Languages/Frameworks de développement Secondaire'}
                     listeSkills={listSkillsSecondaire}
                     initOpen={false} type={"info"} projectCol={true}
                 />

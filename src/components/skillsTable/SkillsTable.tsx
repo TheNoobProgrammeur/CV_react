@@ -63,7 +63,6 @@ export const SkillsTable = (props: {
                     <th scope="col">#</th>
                     <th scope="col">Technologie</th>
                     {projectCol ? <th scope="col">Projet</th> : <></> }
-                    <th scope="col">Domaine</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -77,22 +76,19 @@ export const SkillsTable = (props: {
                             <h3>{value.name}</h3>
                         </td>
                         { projectCol ?
-                        <td>
+                        <td style={{paddingLeft:50}}>
                             { value.haveProject ? <>
                                     <h4>{value.projet.nom}</h4>
                                     cadre du projet : {value.projet.cadre} <br />
                                     description : {value.projet.description.map((value1) =><>{value1}<br /></>)}
                                     <a href={value.projet.link} rel="noreferrer" target="_blank">{value.projet.icone_depot}</a>
                                 </> : (index%2===0) ?
-                                    <img src={gift1}  alt={"gif de chien"}/> :
-                                    <img src={gift2} alt={"gif de chien"}/>
+                                    <img src={gift1}  alt={"gif de chien"} style={{paddingLeft:"25%"}}/> :
+                                    <img src={gift2} alt={"gif de chien"} style={{paddingLeft:"25%"}}/>
                             }
 
                         </td>
                         : <></>}
-                        <td style={{fontSize: "x-large", textAlign: "center", verticalAlign: "middle"}}>
-                            {value.domaine}
-                        </td>
                     </tr>
                 )}
                 </tbody>
