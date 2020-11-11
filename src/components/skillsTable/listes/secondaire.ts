@@ -23,7 +23,7 @@ export const listSkillsSecondaire = [
             cadre: cadreProjet.univeristaire,
             description: [
                 "Projet de groupe de M1",
-                "Mise en plaxe d'une API pour la gestion de collection de document"],
+                "Mise en place d'une API pour la gestion de collection de documents"],
             link: undefined,
             icone_depot: undefined
         }
@@ -37,8 +37,8 @@ export const listSkillsSecondaire = [
             nom: "LudoLearn",
             cadre: cadreProjet.univeristaire,
             description: [
-                "Projet de groupe Cour android a l'UQAC",
-                "Application de peit jeu éducatif"],
+                "Projet de groupe cour android a l'UQAC",
+                "Application de petit jeu éducatif"],
             link: urlGitHub+'LudoLearn',
             icone_depot: githubIcon
         }
@@ -68,7 +68,7 @@ export const listSkillsSecondaire = [
             cadre: cadreProjet.univeristaire,
             description: [
                 "Projet de group Angular",
-                "Application pour géré des collection de doc"],
+                "Application pour géré des collections de documents"],
             link: 'https://github.com/enneagone/alexandrie-front',
             icone_depot: githubIcon
         }
