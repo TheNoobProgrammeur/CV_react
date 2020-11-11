@@ -35,6 +35,9 @@ export const SkillsTable = (props: {
 
 
     const [isOpen, setIsOpen] = useState(props.initOpen);
+
+
+
     const [iconeAngle, setIconeAngle] = useState(angleDownIcon)
     const toggle = () => {
             setIsOpen(!isOpen);
