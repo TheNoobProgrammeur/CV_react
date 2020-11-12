@@ -3,7 +3,8 @@ export const projectDomaine = {
     framwork: "Framework",
     arch: "API Architecture",
     devops: "DEVOPS",
-    outil: "Outils de dev"
+    outil: "Outils de dev",
+    db: "DB"
 };
 
 export const cadreProjet = {

@@ -6,7 +6,8 @@ import {
     listSkillsInProgress,
     listSkillsOutils,
     listSkillsPrincipal,
-    listSkillsSecondaire
+    listSkillsSecondaire,
+    listSkillDB
 } from "../components/skillsTable/listes";
 export const Skills = () => {
 
@@ -44,6 +45,11 @@ export const Skills = () => {
                     titreTab={'Devops'}
                     listeSkills={listSkillsDevops}
                     initOpen={false} type={"warning"} projectCol={false}
+                />
+                <SkillsTable
+                    titreTab={'BDD'}
+                    listeSkills={listSkillDB}
+                    initOpen={false} type={"primary"} projectCol={false}
                 />
                 <SkillsTable
                     titreTab={'Outils de dev'}

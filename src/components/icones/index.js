@@ -1,7 +1,7 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import React from "react";
 import {Devicon} from "./specificIcon/DevIcon"
-import {flask, graphql, kotlin, latex, netlify, spring, circle} from "./specificIcon/IconifyIcon";
+import {flask, graphql, kotlin, latex, netlify, spring, circle, firebase} from "./specificIcon/IconifyIcon";
 
 
 export const linkedinIcon = <i><FontAwesomeIcon icon={["fab", "linkedin-in"]} /></i>
@@ -61,3 +61,4 @@ export const kotlinIcon = kotlin;
 export const latexIcon = latex;
 export const netlifyIcon = netlify;
 export const circleIcon = circle;
+export const firebaseIcone = firebase;
