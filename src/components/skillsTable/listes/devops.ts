@@ -15,7 +15,7 @@ export const listSkillsDevops= [
     },
     {
         icone: travisIcon ,
-        name: "Circle (CI)",
+        name: "Travis (CI)",
         ...devopsConst
     },
     {
