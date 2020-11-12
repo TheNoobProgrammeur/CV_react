@@ -80,7 +80,7 @@ export const listSkillsSecondaire = [
         haveProject: true,
         projet: {
             nom: "Mon CV",
-            cadre: cadreProjet.univeristaire,
+            cadre: cadreProjet.perso,
             description: [
                 "Vous êtes entrain de le lire ^^"],
             link: urlGitHub+"CV_react",
