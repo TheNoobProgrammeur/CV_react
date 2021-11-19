@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import {Button, Collapse} from "reactstrap";
-import {angleDownIcon, angleUpIcon} from "../icones";
+import {angleDownIcon, angleUpIcon} from "../icons";
 
 export const SkillsTable = (props: {
     titreTab: string,
     listeSkills: {
-        icone: any,
+        icon: any,
         name: string,
         domaine: string,
         haveProject: boolean,
@@ -14,7 +14,7 @@ export const SkillsTable = (props: {
             cadre: string,
             description: string[],
             link: string | undefined,
-            icone_depot: any | undefined
+            icon_depot: any | undefined
         },
     }[],
     initOpen: boolean,
@@ -38,13 +38,13 @@ export const SkillsTable = (props: {
 
 
 
-    const [iconeAngle, setIconeAngle] = useState(angleDownIcon)
+    const [iconAngle, setIconAngle] = useState(angleDownIcon)
     const toggle = () => {
             setIsOpen(!isOpen);
             if(isOpen){
-                setIconeAngle(angleDownIcon)
+                setIconAngle(angleDownIcon)
             } else {
-                setIconeAngle(angleUpIcon)
+                setIconAngle(angleUpIcon)
             }
     }
 
@@ -53,7 +53,7 @@ export const SkillsTable = (props: {
             <div className={classCardHeader}>
                 <h3>{titreTab}</h3>
                 <Button className="navbar-toggler" onClick={toggle}>
-                    {iconeAngle}
+                    {iconAngle}
                 </Button>
             </div>
             <Collapse isOpen={isOpen}>
@@ -70,7 +70,7 @@ export const SkillsTable = (props: {
                     (value,index) => <tr>
                         <td className={"dev-icons"}
                             style={{textAlign: "center", verticalAlign: "middle"}}>
-                            {value.icone}
+                            {value.icon}
                         </td>
                         <td style={{fontSize: "x-large", textAlign: "center", verticalAlign: "middle"}} >
                             <h3>{value.name}</h3>
@@ -81,7 +81,7 @@ export const SkillsTable = (props: {
                                     <h4>{value.projet.nom}</h4>
                                     cadre du projet : {value.projet.cadre} <br />
                                     description : {value.projet.description.map((value1) =><>{value1}<br /></>)}
-                                    <a href={value.projet.link} rel="noreferrer" target="_blank">{value.projet.icone_depot}</a>
+                                    <a href={value.projet.link} rel="noreferrer" target="_blank">{value.projet.icon_depot}</a>
                                 </> : (index%2===0) ?
                                     <img src={gift1}  alt={"gif de chien"} style={{paddingLeft:"25%"}}/> :
                                     <img src={gift2} alt={"gif de chien"} style={{paddingLeft:"25%"}}/>

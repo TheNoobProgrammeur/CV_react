@@ -21,5 +21,5 @@ export const projetVide = {
     cadre: "",
     description: [""],
     link: undefined,
-    icone_depot: undefined
+    icon_depot: undefined
 }

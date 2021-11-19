@@ -53,6 +53,7 @@ export const debianIcon = <Devicon name="postgresql" logoStyle="plain"/>
 export const herokuIcon = <Devicon name="heroku" logoStyle="original"/>
 export const vagrantIcon = <Devicon name="vagrant" logoStyle="plain"/>
 export const travisIcon = <Devicon name="travis" logoStyle="plain"/>
+export const flutterIcon = <Devicon name="flutter" logoStyle="plain"/>
 
 export const flaskIcon = flask;
 export const graphqlIcon = graphql;

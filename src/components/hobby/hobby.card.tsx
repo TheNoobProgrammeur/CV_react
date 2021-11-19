@@ -1,9 +1,9 @@
-import {globIcon} from "../icones";
+import {globIcon} from "../icons";
 import React, {useState} from "react";
 import {Collapse} from "reactstrap";
 
 
-export const HoobyCard = () => {
+export const HobbyCard = () => {
 
     const [isOpen, setIsOpen] = useState(false);
     const toggel = () => setIsOpen(!isOpen);

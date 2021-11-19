@@ -8,13 +8,13 @@ import {
     kotlinIcon, latexIcon, oracleIcon, reactIcon,
     rIcone,
     springIcon
-} from "../../icones";
+} from "../../icons";
 import {cadreProjet, projectDomaine, projetVide, urlGitHub} from "./const";
 
 
 export const listSkillsSecondaire = [
     {
-        icone: springIcon,
+        icon: springIcon,
         name: 'Spring',
         domaine: projectDomaine.framwork,
         haveProject: true,
@@ -25,11 +25,11 @@ export const listSkillsSecondaire = [
                 "Projet de groupe de M1",
                 "Mise en place d'une API pour la gestion de collection de documents"],
             link: undefined,
-            icone_depot: undefined
+            icon_depot: undefined
         }
     },
     {
-        icone: adroidIcone ,
+        icon: adroidIcone ,
         name: 'Android',
         domaine: projectDomaine.languages,
         haveProject: true,
@@ -40,11 +40,11 @@ export const listSkillsSecondaire = [
                 "Projet de groupe cour android a l'UQAC",
                 "Application de petit jeu éducatif"],
             link: urlGitHub+'LudoLearn',
-            icone_depot: githubIcon
+            icon_depot: githubIcon
         }
     },
     {
-        icone: kotlinIcon ,
+        icon: kotlinIcon ,
         name: 'Kotlin',
         domaine: projectDomaine.languages,
         haveProject: true,
@@ -55,11 +55,11 @@ export const listSkillsSecondaire = [
                 "Projet de group pour le cour de dev mobile à la catho",
                 "Application de notation de biére. Utilisation de firebase pour la partie BDD et auth"],
             link: urlGitHub+'birudroid',
-            icone_depot: githubIcon
+            icon_depot: githubIcon
         }
     },
     {
-        icone: angularIcone ,
+        icon: angularIcone ,
         name: 'Angular',
         domaine: projectDomaine.framwork,
         haveProject: true,
@@ -70,11 +70,11 @@ export const listSkillsSecondaire = [
                 "Projet de group Angular",
                 "Application pour géré des collections de documents"],
             link: 'https://github.com/enneagone/alexandrie-front',
-            icone_depot: githubIcon
+            icon_depot: githubIcon
         }
     },
     {
-        icone: reactIcon ,
+        icon: reactIcon ,
         name: 'React',
         domaine: projectDomaine.framwork,
         haveProject: true,
@@ -84,60 +84,60 @@ export const listSkillsSecondaire = [
             description: [
                 "Vous êtes entrain de le lire ^^"],
             link: urlGitHub+"CV_react",
-            icone_depot: githubIcon
+            icon_depot: githubIcon
         }
     },
     {
-        icone: jsIcone ,
+        icon: jsIcone ,
         name: 'Javascript',
         domaine: projectDomaine.languages,
         haveProject: false,
         projet: projetVide
     },
     {
-        icone: bashIcon ,
+        icon: bashIcon ,
         name: 'Bash',
         domaine: projectDomaine.languages,
         haveProject: false,
         projet: projetVide
     },
     {
-        icone: rIcone ,
+        icon: rIcone ,
         name: 'R',
         domaine: projectDomaine.languages,
         haveProject: false,
         projet: projetVide
     },
     {
-        icone: htmlIcone ,
+        icon: htmlIcone ,
         name: 'HTML',
         domaine: projectDomaine.languages,
         haveProject: false,
         projet: projetVide
     },
     {
-        icone: cssIcone ,
+        icon: cssIcone ,
         name: 'CSS',
         domaine: projectDomaine.languages,
         haveProject: false,
         projet: projetVide
     },
     {
-        icone: latexIcon ,
+        icon: latexIcon ,
         name: 'Latex',
         domaine: projectDomaine.languages,
         haveProject: false,
         projet: projetVide
     },
     {
-        icone: dataBaseIcon ,
+        icon: dataBaseIcon ,
         name: 'SQl',
         domaine: projectDomaine.languages,
         haveProject: false,
         projet: projetVide
     },
     {
-        icone: oracleIcon ,
+        icon: oracleIcon ,
         name: 'PL/SQl',
         domaine: projectDomaine.languages,
         haveProject: false,

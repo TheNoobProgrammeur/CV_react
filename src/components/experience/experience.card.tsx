@@ -1,27 +1,19 @@
 import React from 'react';
+import {ExperienceType} from "./experience.type";
 
-export const ExperiancesCard = (props: {
-    titre: string;
-    enterprise: string;
-    description: string[];
-    date: string;
-    icons: {
-        name: string;
-        icon: any;
-    }[][]}) => {
-
-    const name = props.titre
-    const enterprise = props.enterprise
-    const  description = props.description
-    const icons = props.icons
-    const date = props.date
+export const ExperienceCard = ({
+    titre,
+    company,
+    description,
+    date,
+    icons} : ExperienceType) => {
 
     return <div className="card">
             <div className="card-body">
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="resume-content">
-                        <h3 className="mb-0">{name}</h3>
-                        <div className="subheading mb-3">{enterprise}</div>
+                        <h3 className="mb-0">{titre}</h3>
+                        <div className="subheading mb-3">{company}</div>
                         <p>
                             {description.map(
                                     (value) => <>{value} <br/></>

@@ -1,5 +1,5 @@
 import {projectDomaine, projetVide} from "./const";
-import {circleIcon, dockerIcon, herokuIcon, netlifyIcon, travisIcon, vagrantIcon,} from "../../icones";
+import {circleIcon, dockerIcon, herokuIcon, netlifyIcon, travisIcon, vagrantIcon,} from "../../icons";
 
 const devopsConst = {
     domaine: projectDomaine.devops,
@@ -9,32 +9,32 @@ const devopsConst = {
 
 export const listSkillsDevops= [
     {
-        icone: circleIcon ,
+        icon: circleIcon ,
         name: "Circle (CI)",
         ...devopsConst
     },
     {
-        icone: travisIcon ,
+        icon: travisIcon ,
         name: "Travis (CI)",
         ...devopsConst
     },
     {
-        icone: herokuIcon ,
+        icon: herokuIcon ,
         name: "Heroku (CD)",
         ...devopsConst
     },
     {
-        icone: netlifyIcon ,
+        icon: netlifyIcon ,
         name: "Netlify (CD)",
         ...devopsConst
     },
     {
-        icone: dockerIcon ,
+        icon: dockerIcon ,
         name: "Docker",
         ...devopsConst
     },
     {
-        icone: vagrantIcon ,
+        icon: vagrantIcon ,
         name: "Vagrant",
         ...devopsConst
     },

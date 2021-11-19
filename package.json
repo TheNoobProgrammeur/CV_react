@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "cv_react_antoine",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.12.5",
@@ -18,7 +18,7 @@
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "bootstrap": "^4.5.3",
-    "devicon": "^2.2.0",
+    "devicon": "^2.14.0",
     "jquery": "~3.4.1",
     "leaflet": "^1.7.1",
     "netlify-cli": "^2.68.4",

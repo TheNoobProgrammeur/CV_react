@@ -1,9 +1,9 @@
-import {cIcon, cppIcon, flaskIcon, githubIcon, javaIcon, phpIcone, pythonIcon} from "../../icones";
+import {cIcon, cppIcon, flaskIcon, flutterIcon, githubIcon, javaIcon, phpIcone, pythonIcon} from "../../icons";
 import {cadreProjet, projectDomaine, urlGitHub} from "./const";
 
 export const listSkillsPrincipal = [
     {
-        icone: pythonIcon,
+        icon: pythonIcon,
         name: 'python',
         domaine: projectDomaine.languages,
         haveProject: true,
@@ -14,11 +14,10 @@ export const listSkillsPrincipal = [
                 "Petit jeu du type mario partie en debut de M1.",
                 "Python a été le principale langage  de programmation durant mes études."],
             link: urlGitHub+'Chariot-Party',
-            icone_depot: githubIcon
+            icon_depot: githubIcon
         }
-    },
-    {
-        icone: javaIcon,
+    },{
+        icon: javaIcon,
         name: 'Java',
         domaine: projectDomaine.languages,
         haveProject: true,
@@ -29,11 +28,27 @@ export const listSkillsPrincipal = [
                 "Projet de recherche universitaire sous la direction du Pr Fábio Petrillo",
                 "Migration d'une API d'architecture Rest en architecture GraphQL"],
             link: urlGitHub+'SwarmGraphQl',
-            icone_depot: githubIcon
+            icon_depot: githubIcon
         }
     },
     {
-        icone: phpIcone,
+        icon: flutterIcon,
+        name: "Flutter",
+        domaine: projectDomaine.framwork,
+        haveProject: true,
+        projet: {
+            nom: "FlipWord",
+            cadre: cadreProjet.univeristaire,
+            description: [
+                "Projet universitaire en groupe sortie sur les stors appel et android",
+                "Application de traduction et d'apprentisage de langue",
+                "Utilisation de firebase"
+            ],
+            link: "https://github.com/acroquelois/flip-word",
+            icon_depot: githubIcon
+        }
+    },{
+        icon: phpIcone,
         name: 'Php',
         domaine: projectDomaine.languages,
         haveProject: true,
@@ -44,11 +59,11 @@ export const listSkillsPrincipal = [
                 "Interface web pour le logiciel linux Auto Multiple Choice",
                 "Gestion de droit utilisateur, interface  de commande, automatisation des corrections."],
             link: undefined,
-            icone_depot: undefined
+            icon_depot: undefined
         }
     },
     {
-        icone: cppIcon,
+        icon: cppIcon,
         name: 'C++',
         domaine: projectDomaine.languages,
         haveProject: true,
@@ -57,11 +72,11 @@ export const listSkillsPrincipal = [
             cadre: cadreProjet.univeristaire,
             description: ["Mineur de cryptomonnaie pour l'optimisation des performances"],
             link: urlGitHub+'CoinCoin_M1_Catho',
-            icone_depot: githubIcon
+            icon_depot: githubIcon
         }
     },
     {
-        icone: cIcon,
+        icon: cIcon,
         name: 'C',
         domaine: projectDomaine.languages,
         haveProject: true,
@@ -70,11 +85,11 @@ export const listSkillsPrincipal = [
             cadre: cadreProjet.univeristaire,
             description: ["Projet Foule", "Projet d'algo de S1 pour appliquer les bases de la programmation en C"],
             link: urlGitHub+'Projet_Foule',
-            icone_depot: githubIcon
+            icon_depot: githubIcon
         }
     },
     {
-        icone: flaskIcon,
+        icon: flaskIcon,
         name: 'Flask',
         domaine: projectDomaine.framwork,
         haveProject: true,
@@ -84,7 +99,7 @@ export const listSkillsPrincipal = [
             description: ["Mise en place d'une API de gestion d'événement",
                 "Projet lab sur les tests, CI/CD et d'autres domaines"],
             link: urlGitHub+'api_flask',
-            icone_depot: githubIcon
+            icon_depot: githubIcon
         }
     }
 ]

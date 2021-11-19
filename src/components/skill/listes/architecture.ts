@@ -1,17 +1,17 @@
-import {codeIcon, graphqlIcon} from "../../icones";
+import {codeIcon, graphqlIcon} from "../../icons";
 import {projectDomaine, projetVide} from "./const";
 
 
 export const listSkillsArchi = [
     {
-        icone: codeIcon ,
+        icon: codeIcon ,
         name: "Rest",
         domaine: projectDomaine.arch,
         haveProject: false,
         projet: projetVide
     },
     {
-        icone: graphqlIcon ,
+        icon: graphqlIcon ,
         name: "GraphQL",
         domaine: projectDomaine.arch,
         haveProject: false,

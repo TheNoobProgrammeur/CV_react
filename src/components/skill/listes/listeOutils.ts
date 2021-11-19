@@ -1,5 +1,5 @@
 import {projectDomaine, projetVide} from "./const";
-import {dockerHubIcone, githubIcon, gitIcone, gitlabIcon, umlIcon} from "../../icones";
+import {dockerHubIcone, githubIcon, gitIcone, gitlabIcon, umlIcon} from "../../icons";
 
 const outilConst = {
     domaine: projectDomaine.outil,
@@ -9,27 +9,27 @@ const outilConst = {
 
 export const listSkillsOutils= [
     {
-        icone: gitIcone ,
+        icon: gitIcone ,
         name: "Git",
         ...outilConst
     },
     {
-        icone: githubIcon ,
+        icon: githubIcon ,
         name: "GitHub",
         ...outilConst
     },
     {
-        icone: gitlabIcon ,
+        icon: gitlabIcon ,
         name: "GitLab",
         ...outilConst
     },
     {
-        icone: dockerHubIcone ,
+        icon: dockerHubIcone ,
         name: "Dpcker Hub",
         ...outilConst
     },
     {
-        icone: umlIcon ,
+        icon: umlIcon ,
         name: "UML",
         ...outilConst
     }

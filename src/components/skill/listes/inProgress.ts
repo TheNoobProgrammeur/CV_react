@@ -1,10 +1,10 @@
 import {cadreProjet, projectDomaine, projetVide, urlGitHub} from "./const";
-import {dotnetIcon, githubIcon, goIcon, nodeIcon} from "../../icones";
+import {dotnetIcon, githubIcon, goIcon, nodeIcon} from "../../icons";
 
 
 export const listSkillsInProgress= [
     {
-        icone: goIcon,
+        icon: goIcon,
         name: 'Go',
         domaine: projectDomaine.languages,
         haveProject: true,
@@ -15,18 +15,18 @@ export const listSkillsInProgress= [
                 "Bot Discord qui me sert de lab en go",
             ],
             link: urlGitHub+'GoBot',
-            icone_depot: githubIcon
+            icon_depot: githubIcon
         }
     },
     {
-        icone: dotnetIcon ,
+        icon: dotnetIcon ,
         name: 'DotNet',
         domaine: projectDomaine.languages,
         haveProject: false,
         projet: projetVide
     },
     {
-        icone: nodeIcon ,
+        icon: nodeIcon ,
         name: 'NodeJS',
         domaine: projectDomaine.framwork,
         haveProject: false,

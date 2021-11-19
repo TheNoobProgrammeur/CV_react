@@ -1,4 +1,4 @@
-import {firebaseIcone, mongoDBIcon, mysqlIcon, oracleIcon, postgresqlIcon} from "../../icones";
+import {firebaseIcone, mongoDBIcon, mysqlIcon, oracleIcon, postgresqlIcon} from "../../icons";
 import {projectDomaine, projetVide} from "./const";
 
 const dbConst = {
@@ -9,29 +9,29 @@ const dbConst = {
 
 export const listSkillDB = [
     {
-        icone: mysqlIcon,
+        icon: mysqlIcon,
         name: "MySQL",
         ...dbConst
 
     },
     {
-        icone: postgresqlIcon,
+        icon: postgresqlIcon,
         name: "PostgreSQL",
         ...dbConst
 
     },
     {
-        icone: firebaseIcone,
+        icon: firebaseIcone,
         name: "Firebase",
         ...dbConst
     },
     {
-        icone: oracleIcon,
+        icon: oracleIcon,
         name: "Oracle",
         ...dbConst
     },
     {
-        icone: mongoDBIcon,
+        icon: mongoDBIcon,
         name: "MongoDB",
         ...dbConst
     },
