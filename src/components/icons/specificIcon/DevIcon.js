@@ -1,9 +1,8 @@
-import React from 'react';
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable react/prop-types */
+import React from "react"
 import devicon from "devicon"
 
 export const Devicon = (props) => {
-    let format = `devicon-${props.name}-${props.logoStyle}`;
-    return <i className={`${format} ${props.iconClass}`} />
-
+  const format = `devicon-${props.name}-${props.logoStyle}`
+  return <i className={`${format} ${props.iconClass}`} />
 }

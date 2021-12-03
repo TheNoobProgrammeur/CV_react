@@ -1,12 +1,9 @@
-type IconsType = {
-    name: string;
-    icon: JSX.Element;
-}
+import { IconsType } from "../icons/icon.type"
 
 export type ExperienceType = {
-    titre: string;
-    company: string;
-    description: string[];
-    date: string;
-    icons: IconsType[][];
+  titre: string
+  company: string
+  description: string[]
+  date: string
+  icons: IconsType[][]
 }

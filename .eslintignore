@@ -1,0 +1,3 @@
+{
+    "ignorePatterns": ["src/components/icons/specificIcon/DevIcon.js"],
+}
