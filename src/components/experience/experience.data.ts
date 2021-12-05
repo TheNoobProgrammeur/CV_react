@@ -18,9 +18,12 @@ import {
 } from "../icons"
 
 const atosExperience: ExperienceType = {
-  titre: "Developeur Junior",
-  company: "Atos",
-  description: ["Analyste developeurs chez des client dans le secteur du retail."],
+  titre: "Développeur Junior - Full Stack",
+  company: "Atos Integration - Lille",
+  description: [
+    "Missions pour différents clients dans le secteur du Retail. Reverse engineering de logiciel métier.",
+    "Travail sur un site e-commerce (Front en react/NextJS, API GraphQL, micro-service REST)",
+  ],
   date: "Septembre 2021 - Aujourd'hui",
   icons: [
     [
@@ -45,12 +48,12 @@ const atosExperience: ExperienceType = {
 }
 
 const atosAlternantExperience: ExperienceType = {
-  titre: "Alternance Developeur",
-  company: "Atos",
+  titre: "Apprenti Développeur - Projet Piste cyclable connectée",
+  company: "Atos Integration - Lille",
   description: [
-    "Apprenti développeur chez Atos.",
-    "Projet R&D sur ma piste cyclable connecter",
-    "Mise en place de l'agilité dans léquipe",
+    "Projet de R&D pour encourager la mobilité douce dans le secteur de la MEL. Utilisation de bornes équipées de capteurs le long des voies cyclables pour remonter des informations à la MEL.",
+    "Programmation d’une API NodeJS et d’applications front en React Typescript. Mise en place de l’Agilité dans l’équipe et d’un workflow d’équipe.",
+    "Collaboration sur le projet avec Atmo, IMT Douai et les écoles Julia.",
   ],
   date: "Septembre 2020 - Juillet 2021",
   icons: [
@@ -63,18 +66,25 @@ const atosAlternantExperience: ExperienceType = {
         name: "nodeJS",
         icon: nodeIcon,
       },
+      {
+        name: "python",
+        icon: pythonIcon,
+      },
+      {
+        name: "Agilité",
+        icon: trelloIcon,
+      },
     ],
   ],
 }
 
 const capensisExperience: ExperienceType = {
-  titre: "Apprenti developpeur Back-end",
-  company: "Capensis",
+  titre: "Apprenti Développeur Back-end",
+  company: "Capensis - Wasquehal",
   date: "Septembre 2019 - Juillet 2020",
   description: [
-    "Apprenti développeur au sein de l'équipe Canopsis.",
-    "Programmation d'un SDK pour faciliter l'installation d'un environnement de développement.",
-    "Travail sur l'API REST de l'application et sur different connecteur.",
+    "Travail sur l'API REST en python de l'application et ses différents connecteurs.",
+    "Création d’un SDK pour faciliter la mise en place d’un environnement de développement.",
   ],
   icons: [
     [
